@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="Review and adjust your Cup2Eat demo pack.">
+  <title>Your Cup2Eat Demo Pack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="Cup2Eat home"><img src="assets/cup2eat-logo.jpg" alt=""><span class="brand-name">CUP<span>2</span>EAT</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="about.html">About</a><a href="flavours.html">Flavours</a><a href="cup-styles.html">Cup styles</a><a href="find-us.html">Find us</a>
+      </nav>
+      <a class="nav-cta" href="flavours.html">Keep browsing <span aria-hidden="true">↗</span></a>
+      <a class="demo-pack" href="demo-pack.html" aria-label="Demo pack, 0 packs">Demo pack <span id="demo-order-count">0</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="wrap page-hero page-hero-compact">
+      <div class="eyebrow">Your selection</div>
+      <h1>Your demo<br><span>pack.</span></h1>
+      <p>Review your selected menu packs and adjust the quantities. This is a demo only; it will not place an order.</p>
+    </section>
+    <section class="wrap pack-content">
+      <div class="empty-pack" id="demo-pack-empty" hidden>
+        <h2>Your pack is empty.</h2>
+        <p>Pick a flavour from the menu to get started.</p>
+        <a class="button" href="flavours.html">Browse flavours <span aria-hidden="true">↗</span></a>
+      </div>
+      <div id="demo-pack-content" hidden>
+        <div class="pack-list" id="demo-pack-items"></div>
+        <div class="pack-summary"><p>Demo pack total <small>(menu prices)</small></p><strong id="demo-pack-total">₹0</strong></div>
+        <div class="pack-actions">
+          <a class="button" href="flavours.html">Add more flavours <span aria-hidden="true">↗</span></a>
+          <button class="clear-pack" id="clear-demo-pack" type="button">Clear pack</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner">
+    <a class="brand" href="index.html" aria-label="Cup2Eat home"><img src="assets/cup2eat-logo.jpg" alt=""><span class="brand-name">CUP<span>2</span>EAT</span></a>
+    <div class="footer-links"><a href="about.html">About</a><a href="flavours.html">Flavours</a><a href="cup-styles.html">Cup styles</a><a href="find-us.html">Find us</a></div>
+    <div class="copyright">Cup2Eat · Sip &amp; bite</div>
+  </div></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>

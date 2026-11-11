@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="Explore Cup2Eat edible cups, flavours, and menu prices. Find the featured pop-up at Pearl SR-7.">
+  <title>Cup2Eat — Sip &amp; Bite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="Cup2Eat home">
+        <img src="assets/cup2eat-logo.jpg" alt="">
+        <span class="brand-name">CUP<span>2</span>EAT</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="about.html">About</a>
+        <a href="flavours.html">Flavours</a>
+        <a href="cup-styles.html">Cup styles</a>
+        <a href="find-us.html">Find us</a>
+      </nav>
+      <a class="nav-cta" href="flavours.html">View the menu <span aria-hidden="true">↗</span></a>
+      <a class="demo-pack" href="demo-pack.html" aria-label="View demo pack, 0 packs">Demo pack <span id="demo-order-count" aria-label="0 packs in demo pack">0</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero" id="story">
+      <div class="hero-copy">
+        <div class="eyebrow">Cup2Eat · edible cups</div>
+        <h1>A cup made to<br><span>sip &amp; bite.</span></h1>
+        <p>Enjoy your coffee or dessert in a cup you can eat. Meet Cup2Eat, explore the flavours on the menu, and find us at Pearl SR-7.</p>
+        <div class="actions">
+          <a class="button" href="flavours.html">Explore the flavours <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="find-us.html">Find us <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <img class="hero-photo" src="assets/cup2eat-store-display.jpg" alt="Cup2Eat edible cups displayed at the Pearl SR-7 pop-up">
+      </div>
+    </section>
+
+    <section class="wrap section" id="menu">
+      <div class="section-heading">
+        <div><div class="eyebrow">The Cup2Eat menu</div><h2>Pick your<br>flavour.</h2></div>
+        <p>These flavours and prices are transcribed from the menu image you shared. Pack sizes are included where they were readable.</p>
+      </div>
+      <p class="price-note">Please confirm pack sizes and availability with the shop before ordering.</p>
+
+      <div class="products">
+        <article class="product-card">
+          <div class="product-image"><img src="assets/cup2eat-chocolate-chip.jpg" alt="Chocolate chip edible cup"><span class="product-tag">Menu flavour</span></div>
+          <div class="product-info">
+            <div class="product-title"><h3>Chocolate Chip</h3><span>₹109</span></div>
+            <p>Pack of 10 cups, as listed on the menu.</p>
+            <div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Chocolate Chip" aria-label="Add Chocolate Chip to demo pack">Add</button></div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/cup2eat-chocolate.jpg" alt="Chocolate edible cup"><span class="product-tag">Menu flavour</span></div>
+          <div class="product-info">
+            <div class="product-title"><h3>Chocolate</h3><span>₹99</span></div>
+            <p>Pack of 10 cups, as listed on the menu.</p>
+            <div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Chocolate" aria-label="Add Chocolate to demo pack">Add</button></div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/cup2eat-strawberry.jpg" alt="Strawberry edible cup"><span class="product-tag">Menu flavour</span></div>
+          <div class="product-info">
+            <div class="product-title"><h3>Strawberry</h3><span>₹109</span></div>
+            <p>Pack of 8 cups, as listed on the menu.</p>
+            <div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Strawberry" aria-label="Add Strawberry to demo pack">Add</button></div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/cup2eat-elaichi.jpg" alt="Elaichi edible cup"><span class="product-tag">Menu flavour</span></div>
+          <div class="product-info">
+            <div class="product-title"><h3>Elaichi</h3><span>₹99</span></div>
+            <p>Flavour and price shown on the shared menu.</p>
+            <div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Elaichi" aria-label="Add Elaichi to demo pack">Add</button></div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/cup2eat-vanilla.jpg" alt="Vanilla edible cup"><span class="product-tag">Menu flavour</span></div>
+          <div class="product-info">
+            <div class="product-title"><h3>Vanilla</h3><span>₹99</span></div>
+            <p>Flavour and price shown on the shared menu.</p>
+            <div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Vanilla" aria-label="Add Vanilla to demo pack">Add</button></div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/cup2eat-mango.jpg" alt="Mango edible cup"><span class="product-tag">Menu flavour</span></div>
+          <div class="product-info">
+            <div class="product-title"><h3>Mango</h3><span>₹75</span></div>
+            <p>Flavour and price shown on the shared menu.</p>
+            <div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Mango" aria-label="Add Mango to demo pack">Add</button></div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-image"><img src="assets/cup2eat-pista.jpg" alt="Pista edible cup"><span class="product-tag">Menu flavour</span></div>
+          <div class="product-info">
+            <div class="product-title"><h3>Pista</h3><span>₹89</span></div>
+            <p>Flavour and price shown on the shared menu.</p>
+            <div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Pista" aria-label="Add Pista to demo pack">Add</button></div>
+          </div>
+        </article>
+      </div>
+      <p class="demo-note">Demo only: adding a flavour updates the sample pack count; it does not place an order.</p>
+    </section>
+
+    <section class="wrap section catalogue" id="styles">
+      <div class="section-heading">
+        <div><div class="eyebrow">From the Cup2Eat catalogue</div><h2>More cup<br>styles.</h2></div>
+        <p>The catalogue image also features vanilla, chocolate, elaichi, and chocolate-coated cups.</p>
+      </div>
+      <div class="catalog-grid">
+        <article class="catalog-card"><img src="assets/cup2eat-vanilla-cup.jpg" alt="Vanilla cup with a waffle pattern"><h3>Vanilla cups</h3></article>
+        <article class="catalog-card"><img src="assets/cup2eat-chocolate-cup.jpg" alt="Chocolate cup with a waffle pattern"><h3>Chocolate cups</h3></article>
+        <article class="catalog-card"><img src="assets/cup2eat-elaichi-cup.jpg" alt="Elaichi cup with a waffle pattern"><h3>Elaichi cups</h3></article>
+        <article class="catalog-card"><img src="assets/cup2eat-choco-coated-cup.jpg" alt="Chocolate-coated edible cup"><h3>Choco coating cups</h3></article>
+      </div>
+      <p class="catalogue-copy">Cup styles and flavour options are shown in the catalogue image you shared. Check with the shop for current options.</p>
+    </section>
+
+    <section class="wrap visit" id="visit">
+      <div class="visit-grid">
+        <div>
+          <div class="eyebrow">Find Cup2Eat</div>
+          <h2>Only at Pearl SR-7.</h2>
+          <p>The shared promotion says packs of 8 start at ₹79 and names Pearl SR-7. Check the current offer and flavour availability at the shop.</p>
+        </div>
+        <div class="visit-offer"><span>Shared promotion</span><strong>8 cups from ₹79</strong><small>Check current availability in store.</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <a class="brand" href="index.html" aria-label="Cup2Eat home">
+        <img src="assets/cup2eat-logo.jpg" alt="">
+        <span class="brand-name">CUP<span>2</span>EAT</span>
+      </a>
+      <div class="footer-links"><a href="about.html">About</a><a href="flavours.html">Flavours</a><a href="cup-styles.html">Cup styles</a><a href="find-us.html">Find us</a></div>
+      <div class="copyright">Cup2Eat · Sip &amp; bite</div>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>

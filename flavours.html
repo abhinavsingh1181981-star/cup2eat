@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="Browse Cup2Eat edible cup flavours and prices from the supplied menu.">
+  <title>Cup2Eat Flavours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="Cup2Eat home"><img src="assets/cup2eat-logo.jpg" alt=""><span class="brand-name">CUP<span>2</span>EAT</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="about.html">About</a><a href="flavours.html" aria-current="page">Flavours</a><a href="cup-styles.html">Cup styles</a><a href="find-us.html">Find us</a>
+      </nav>
+      <a class="nav-cta" href="cup-styles.html">View cup styles <span aria-hidden="true">↗</span></a>
+      <a class="demo-pack" href="demo-pack.html" aria-label="Demo pack, 0 packs">Demo pack <span id="demo-order-count" aria-label="0 packs in demo pack">0</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="wrap page-hero">
+      <div class="eyebrow">The Cup2Eat menu</div>
+      <h1>Find your<br><span>favourite flavour.</span></h1>
+      <p>Flavours, listed prices, and pack sizes below are transcribed from the menu image you shared. Availability and pack sizes may change.</p>
+      <div class="page-cta-row"><a class="button" href="find-us.html">Find us at Pearl SR-7 <span aria-hidden="true">↗</span></a><a class="outline-button" href="cup-styles.html">See cup styles</a></div>
+    </section>
+    <section class="wrap page-content">
+      <div class="products">
+        <article class="product-card"><div class="product-image"><img src="assets/cup2eat-chocolate-chip.jpg" alt="Chocolate chip edible cup"><span class="product-tag">Menu flavour</span></div><div class="product-info"><div class="product-title"><h3>Chocolate Chip</h3><span>₹109</span></div><p>Pack of 10 cups, as listed on the menu.</p><div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Chocolate Chip" aria-label="Add Chocolate Chip to demo pack">Add</button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/cup2eat-chocolate.jpg" alt="Chocolate edible cup"><span class="product-tag">Menu flavour</span></div><div class="product-info"><div class="product-title"><h3>Chocolate</h3><span>₹99</span></div><p>Pack of 10 cups, as listed on the menu.</p><div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Chocolate" aria-label="Add Chocolate to demo pack">Add</button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/cup2eat-strawberry.jpg" alt="Strawberry edible cup"><span class="product-tag">Menu flavour</span></div><div class="product-info"><div class="product-title"><h3>Strawberry</h3><span>₹109</span></div><p>Pack of 8 cups, as listed on the menu.</p><div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Strawberry" aria-label="Add Strawberry to demo pack">Add</button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/cup2eat-elaichi.jpg" alt="Elaichi edible cup"><span class="product-tag">Menu flavour</span></div><div class="product-info"><div class="product-title"><h3>Elaichi</h3><span>₹99</span></div><p>Flavour and price shown on the shared menu.</p><div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Elaichi" aria-label="Add Elaichi to demo pack">Add</button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/cup2eat-vanilla.jpg" alt="Vanilla edible cup"><span class="product-tag">Menu flavour</span></div><div class="product-info"><div class="product-title"><h3>Vanilla</h3><span>₹99</span></div><p>Flavour and price shown on the shared menu.</p><div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Vanilla" aria-label="Add Vanilla to demo pack">Add</button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/cup2eat-mango.jpg" alt="Mango edible cup"><span class="product-tag">Menu flavour</span></div><div class="product-info"><div class="product-title"><h3>Mango</h3><span>₹75</span></div><p>Flavour and price shown on the shared menu.</p><div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Mango" aria-label="Add Mango to demo pack">Add</button></div></div></article>
+        <article class="product-card"><div class="product-image"><img src="assets/cup2eat-pista.jpg" alt="Pista edible cup"><span class="product-tag">Menu flavour</span></div><div class="product-info"><div class="product-title"><h3>Pista</h3><span>₹89</span></div><p>Flavour and price shown on the shared menu.</p><div class="product-bottom"><span>Listed menu price</span><button type="button" data-add-product="Pista" aria-label="Add Pista to demo pack">Add</button></div></div></article>
+      </div>
+      <p class="demo-note">Demo only: adding a flavour updates the sample count; it does not place an order. Please confirm current prices and availability with the shop.</p>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner">
+    <a class="brand" href="index.html" aria-label="Cup2Eat home"><img src="assets/cup2eat-logo.jpg" alt=""><span class="brand-name">CUP<span>2</span>EAT</span></a>
+    <div class="footer-links"><a href="about.html">About</a><a href="flavours.html">Flavours</a><a href="cup-styles.html">Cup styles</a><a href="find-us.html">Find us</a></div>
+    <div class="copyright">Cup2Eat · Sip &amp; bite</div>
+  </div></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>

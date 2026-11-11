@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10110f">
+  <meta name="description" content="Explore the edible cup styles shown in the Cup2Eat catalogue.">
+  <title>Cup2Eat Cup Styles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="Cup2Eat home"><img src="assets/cup2eat-logo.jpg" alt=""><span class="brand-name">CUP<span>2</span>EAT</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="about.html">About</a><a href="flavours.html">Flavours</a><a href="cup-styles.html" aria-current="page">Cup styles</a><a href="find-us.html">Find us</a>
+      </nav>
+      <a class="nav-cta" href="flavours.html">Browse flavours <span aria-hidden="true">↗</span></a>
+      <a class="demo-pack" href="demo-pack.html" aria-label="View demo pack, 0 packs">Demo pack <span id="demo-order-count">0</span></a>
+    </div>
+  </header>
+  <main>
+    <section class="wrap page-hero">
+      <div class="eyebrow">From the Cup2Eat catalogue</div>
+      <h1>Choose your<br><span>cup style.</span></h1>
+      <p>These edible cup styles appear in the catalogue image you shared. Ask the shop which options are currently available.</p>
+      <div class="page-cta-row"><a class="button" href="flavours.html">See menu flavours <span aria-hidden="true">↗</span></a><a class="outline-button" href="find-us.html">Find us</a></div>
+    </section>
+    <section class="wrap page-content">
+      <div class="catalog-grid">
+        <article class="catalog-card"><img src="assets/cup2eat-vanilla-cup.jpg" alt="Vanilla cup with a waffle pattern"><h3>Vanilla cups</h3></article>
+        <article class="catalog-card"><img src="assets/cup2eat-chocolate-cup.jpg" alt="Chocolate cup with a waffle pattern"><h3>Chocolate cups</h3></article>
+        <article class="catalog-card"><img src="assets/cup2eat-elaichi-cup.jpg" alt="Elaichi cup with a waffle pattern"><h3>Elaichi cups</h3></article>
+        <article class="catalog-card"><img src="assets/cup2eat-choco-coated-cup.jpg" alt="Chocolate-coated edible cup"><h3>Choco coating cups</h3></article>
+      </div>
+      <p class="catalogue-copy">Cup styles and flavour options are shown in the catalogue image you shared. Check with the shop for current options.</p>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner">
+    <a class="brand" href="index.html" aria-label="Cup2Eat home"><img src="assets/cup2eat-logo.jpg" alt=""><span class="brand-name">CUP<span>2</span>EAT</span></a>
+    <div class="footer-links"><a href="about.html">About</a><a href="flavours.html">Flavours</a><a href="cup-styles.html">Cup styles</a><a href="find-us.html">Find us</a></div>
+    <div class="copyright">Cup2Eat · Sip &amp; bite</div>
+  </div></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>
